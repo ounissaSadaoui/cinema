@@ -1,0 +1,34 @@
+[
+    {
+       "titre":"Se7en",
+       "cover":"./asset/se7en.jpg",
+       "sortie":"1995",
+       "genre":"Thriller, crime, mystère",
+       "réalisateur":"David Fincher",
+       "url":"https://fr.wikipedia.org/wiki/Seven_(film)"
+    },
+    {
+       "titre":"Matrix",
+       "cover":"./asset/matrix.jpg",
+       "sortie":"1999",
+       "genre":"Science fiction, action",
+       "réalisateur":"Soeurs Washowski",
+       "url":"https://fr.wikipedia.org/wiki/The_Matrix"
+    },
+    {
+       "titre":"Memories of Murder",
+       "cover":"./asset/memories.jpg",
+       "sortie":"2004",
+       "genre":"Crime, thriller",
+       "réalisateur":"Bong Joonh-ho",
+       "url":"https://en.wikipedia.org/wiki/Memories_of_Murder"
+    },
+    {
+       "titre":"Dear Zindagi",
+       "cover":"./asset/zindagi.jpg.jpg",
+       "sortie":"2016",
+       "genre":"Drame, Romance",
+       "réalisateur":"Gauri Shinde",
+       "url":"https://en.wikipedia.org/wiki/Dear_Zindagi"
+    }
+ ]

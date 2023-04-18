@@ -1,0 +1,138 @@
+html{
+    font-size: 62.5%;
+    background-color:#2f2e30;
+}  
+
+
+:root{
+    --color-primary: #2f2e30;
+    --color-gris: #717073;
+    --color-blanc: #dfdbe4;
+}
+/* tout ceci est pour mettre l'image sur tout le backgroud, parce que sinon c'est trop gran et elle est zoomée */
+body {
+    font: 1.6rem "open sans", sans-serif;
+    margin:0;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+img{ /* il faut avoir ce bloc pour les images */
+     display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    
+}
+    
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color:red;
+    border:0;
+    padding: 0;
+    font-size: inherit;
+}
+/*theme */
+.colle{
+    max-width: 120rem;
+    margin: 5rem auto 5rem;
+    overflow: hidden;
+    background: #ffff;
+
+}
+
+header h1{
+    text-align: center;
+    color:#2f2e30 ;
+    font-size: 4rem;
+    line-height: 8rem;
+    background-color: #717073;
+
+}
+
+.primary-collection{
+    max-width: 100rem;
+    margin: 5rem auto 5rem;
+    overflow: hidden;
+    background:#2f2e30;
+
+}
+/*
+ .primary-collection ul {
+    display: block;
+    padding: Orem auto ;
+    margin:auto;
+    background-color: #14a814;
+    
+}*/
+
+.primary-collection ul{ 
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.primary-collection ul li {
+    flex-grow: 1; 
+    flex-basis: calc(100% / 5); 
+
+}
+
+figure figcaption h2{
+    background-color: #717073;
+    text-align: center;
+    font-weight: 200;
+}
+figure figcaption p:nth-child(2n+2){
+    background-color: #dfdbe4;
+
+}
+figure figcaption p:nth-child(2n+1),a{
+    background-color: #ffff;
+
+}
+a{
+    color: #ffff;
+    background-color:#2f2e30;
+    padding: 0.7rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 7%;
+    position: sticky;
+    margin: 5rem;
+}
+figure figcaption p:nth-child(5){
+    padding: 1rem ;
+}
+footer {
+    text-align: center;
+    color: #dfdbe4;
+}
+
+
+@media  screen and (max-width: 100rem) { /*attention ici il te faut un espace entre le screen et le and */
+ 
+
+    .primary-collection ul li {
+        flex-grow: 1; 
+        flex-basis: calc(100% / 1); 
+    
+    }
+}
