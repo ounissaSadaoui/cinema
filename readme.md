@@ -1,4 +1,6 @@
 # Projet les classiques du cinéma
+
+lien de déploiement https://ounissasadaoui.github.io/cinema/
 ## Première étape:
 ### Création du manifeste des icones:
 on télécharge l'icone, en on n'oublie pas de copier la partie 
